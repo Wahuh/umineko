@@ -1,0 +1,13 @@
+.MenuItem {
+    width: 100%;
+    background: red;
+}
+
+.MenuItemList {
+    width: 100%;
+    height: 100%;
+}
+
+.ExpansionDetails {
+    padding: 0;
+}

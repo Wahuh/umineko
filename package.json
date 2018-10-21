@@ -1,0 +1,37 @@
+{
+  "name": "umineko",
+  "version": "0.0.1",
+  "description": "\"# umineko\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wahuh/umineko.git"
+  },
+  "author": "'Thanh <'tmdoan98@gmail.com'>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wahuh/umineko/issues"
+  },
+  "homepage": "https://github.com/Wahuh/umineko#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.2.2",
+    "@material-ui/icons": "^3.0.1",
+    "mobx": "^5.5.0",
+    "mobx-react": "^5.3.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "cssnano": "^4.1.5",
+    "postcss-modules": "^1.4.1"
+  }
+}

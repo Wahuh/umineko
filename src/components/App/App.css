@@ -1,0 +1,11 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0
+}
