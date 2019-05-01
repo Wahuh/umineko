@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+    .NavBar {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .NavBar {
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .NavBar {
+        flex-direction: row;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .NavBar {
+        flex-direction: row;
+        width: 30%;
+    }
+}
+
+.NavBar {
+}

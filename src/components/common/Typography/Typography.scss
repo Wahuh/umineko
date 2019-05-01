@@ -1,0 +1,21 @@
+@import "../styles/colors";
+
+.Primary {
+    color: $primary-text;
+}
+
+.Secondary {
+    color: $secondary-text;
+}
+
+.Tertiary {
+    color: $tertiary-text;
+}
+
+.Gradient {
+    background: linear-gradient(to right, #96c93d, #00b09b);
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #00b09b;  
+}

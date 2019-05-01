@@ -1,0 +1,79 @@
+@media screen and (max-width: 767px) {
+    .CardWrapper {
+        padding: 0 0.5rem 0.5rem 0;
+    }
+    .SyllableCard > * {
+        padding: 0;
+    }
+    .SyllableCard {
+        justify-content: space-evenly;
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .SyllableCard {
+
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .SyllableCard {
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .SyllableCard {
+        justify-content: center;
+    }
+    .SyllableCard > * {
+        margin-top: 0.75rem;
+    }
+    .CardWrapper {
+        padding: 0.5rem;
+    }
+}
+
+.Hidden {
+    visibility: hidden;
+}
+
+.CardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    box-sizing: border-box;
+    flex: 0 0 20%;
+
+
+    .SyllableCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        background-color: white;
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+        text-align: center;
+        border-radius: 5px;
+        h2 {
+            margin: 0;
+        }
+        .Roumaji {
+            color: grey !important;
+        }
+    }
+}
+
+.CardWrapper::before {
+    content: '';
+    display: table;
+    padding-top: 100%;
+}

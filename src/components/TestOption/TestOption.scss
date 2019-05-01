@@ -1,0 +1,20 @@
+.InfoButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 !important;
+    svg {
+        height: 0.9rem;
+        width: 0.9rem;
+    }
+}
+
+.TestOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    label {
+        margin-bottom: 0 !important;
+    }
+}
